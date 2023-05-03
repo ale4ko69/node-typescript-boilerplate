@@ -16,7 +16,6 @@
       "pre-commit": "npx lint-staged ./"
     }
   },
-  "lint-staged": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
