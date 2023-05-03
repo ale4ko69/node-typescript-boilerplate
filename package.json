@@ -9,12 +9,11 @@
     "build": "rimraf ./build && npx tsc",
     "start": "node build/main",
     "lint": "npx eslint ./src --ext .js,.ts",
-    "lint-staged": "npx lint-staged",
     "format": "npx eslint ./src --fix"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint-staged"
+      "pre-commit": "npx lint-staged"
     }
   },
   "lint-staged": {},
