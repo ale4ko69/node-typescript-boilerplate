@@ -1,5 +1,5 @@
 import { analytics } from './modules/analytics.js'
-import alex from './modules/index.js';
+import {alex} from './modules/index.js';
 const alex = "alex"
 const message = 'Hello NodeJS'
 
